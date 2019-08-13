@@ -1,3 +1,3 @@
-class ApplicationRecord < ActiveRecord::Base
-  self.abstract_class = true
+class Post < ActiveRecord::Base
+  # AR classes are singular and capitalized by convention
 end
